@@ -4,7 +4,7 @@
 3. One heading.
 
 **Website 2:**
-1. It wrapped in a ```<nav> tag```
+1. It wrapped in a ```<nav>``` tag.
 2. It's structured using semantic html tags like ```<form>, <input>,<label> and <dialog>```
 3. The underline disappears.
 
@@ -23,4 +23,5 @@
 
 <input type="submit"> (or <button type="submit">)
 ```
-3.  <img width="712" height="519" alt="Screenshot 2026-10-08 174204" src="https://github.com/user-attachments/assets/96693eba-043c-4cf1-9955-14579d8c8ed6" />
+3.
+<img width="712" height="519" alt="Screenshot 2026-10-08 174204" src="https://github.com/user-attachments/assets/96693eba-043c-4cf1-9955-14579d8c8ed6" />
