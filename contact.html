@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a> 
+        <a href="about.html">About Me</a> 
+        <a href="projects.html">Projects</a> 
+        <a href="contact.html"  aria-current="page">Contact</a>
+    </nav>
+    <header><h1>CONTACT ME</h1></header>
+    <p>Feel free to get in touch with me!</p>
+
     <main>
-    <form>
+        <section>
+            <h2>Send me a message</h2>
+    <form action="#" method="post">
         <fieldset>
             <legend><b>CONTACT INFORMATION</b></legend>
             <p>
@@ -30,6 +42,10 @@
                     <option>Feedback</option>
                 </select>
             </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Message</legend>
             <p>
                 <label for="message">Message:</label><br>
                 <textarea id="message" name="message" placeholder="Enter message here(minimum 50 characters)"
@@ -39,12 +55,46 @@
                         cols="40"></textarea required>
             </p>
             <p>
-                <label for="checkbox">Subscribe to our newsletter</label>
+                <label for="checkbox">Subscribe to my newsletter</label>
                 <input type="checkbox" id="checkbox" name="newsletter">
             </p>
             <button type="submit">Submit</button>
         </fieldset>
     </form>
+        </section>
+
+        <section>
+            <h2>Email Me</h2>
+            <p>
+                <a href="mailto:traceywanjiru2005@gmail.com">traceywanjiru2005@gmail.com</a>
+            </p>
+        </section>
+        <section>
+            <h2>Find Me Online</h2>
+            <ul>
+                </li>
+                <li>
+                    <a href="https://github.com/traceywanjiru" target="_blank" rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/traceyyverse" target="_blank" rel="noopener noreferrer">
+                        Instagram
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Location and timezone -->
+        <section>
+            <h2>Location &amp; Time Zone</h2>
+            <p>Location: Kenya</p>
+            <p>Time zone: East Africa Time (EAT), UTC+3</p>
+        </section>
     </main>
+    <footer>
+        <p>&copy; 2026 Tracey Wanjiru</p>
+    </footer>
 </body>
 </html>

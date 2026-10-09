@@ -1,0 +1,25 @@
+nav {
+    background-color: #172554;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #334155;
+}
+
+nav a[aria-current="page"] {
+    background-color: #facc15;
+    color: #172554;
+    font-weight: bold;
+    text-decoration: underline;
+}
