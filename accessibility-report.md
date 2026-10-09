@@ -1,8 +1,10 @@
 **Issues found**
 1. No lang attribute in ```<head>``` tag.
+2. Headings didn't have proper hierarchy. 
 
 **How issues were fixed**
 1. I added lang attribute to ```<head>``` tag.
+2. Fixed hierarchy on the headings.
 
 **Final lighthouse accessibility score**
 
