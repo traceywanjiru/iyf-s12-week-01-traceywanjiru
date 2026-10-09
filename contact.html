@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <main>
+    <form>
+        <fieldset>
+            <legend><b>CONTACT INFORMATION</b></legend>
+            <p>
+        <label for="full-name">Full Name:</label>
+    <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="e.g joepeters@gmail.com" required>
+            </p>
+            <p>
+                <label for="tel">Phone number:</label>
+                <input type="tel" id="tel" name="tel" placeholder="Enter phone  number">
+            </p>
+            <p>
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option>General Inquiry</option>
+                    <option>Support</option>
+                    <option>Feedback</option>
+                </select>
+            </p>
+            <p>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Enter message here(minimum 50 characters)"
+                        minlength="50"
+                        required
+                        rows="6"
+                        cols="40"></textarea required>
+            </p>
+            <p>
+                <label for="checkbox">Subscribe to our newsletter</label>
+                <input type="checkbox" id="checkbox" name="newsletter">
+            </p>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    </main>
+</body>
+</html>
