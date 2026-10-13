@@ -1,10 +1,10 @@
 **Issues found**
-1. No lang attribute in ```<head>``` tag.
-2. Headings didn't have proper hierarchy. 
+1. Headings didn't have proper hierarchy.
+2. Using a  relative link instead of an external URL.
 
 **How issues were fixed**
-1. I added lang attribute to ```<head>``` tag.
-2. Fixed hierarchy on the headings.
+1. Fixed hierarchy on the headings.
+2. Fixed the tryhackme link to an external URL.
 
 **Final lighthouse accessibility score**
 
